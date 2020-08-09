@@ -4,7 +4,7 @@ cabal-version: 1.12
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: ebf19f70ed3047d1d54a248e2f30cfd5c91403a62ec3c9a8b3d25b175a28d50f
+-- hash: 42d5734dc31e8813daae524370d3b39d71c52cd1dc1ec9701f1b6cbebbf7fc1c
 
 name:           tui-hooks
 version:        0.1.0.0
@@ -37,6 +37,7 @@ library
     , containers
     , lens
     , mtl
+    , stm
     , text
     , typerep-map
     , vty
@@ -54,6 +55,7 @@ executable tui-hooks-exe
     , containers
     , lens
     , mtl
+    , stm
     , text
     , tui-hooks
     , typerep-map
@@ -73,6 +75,7 @@ test-suite tui-hooks-test
     , containers
     , lens
     , mtl
+    , stm
     , text
     , tui-hooks
     , typerep-map

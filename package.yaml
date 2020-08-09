@@ -27,6 +27,7 @@ dependencies:
 - containers
 - mtl
 - typerep-map
+- stm
 
 library:
   source-dirs: src
